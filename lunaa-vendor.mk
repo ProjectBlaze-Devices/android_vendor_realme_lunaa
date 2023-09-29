@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/lunaa
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/lunaa/proprietary/product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/com.android.hotwordenrollment.common.util.xml \
+    vendor/realme/lunaa/proprietary/product/etc/permissions/com.android.hotwordenrollment.okgoogle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.hotwordenrollment.okgoogle.xml \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service \
     vendor/realme/lunaa/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/lunaa/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
@@ -942,4 +944,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     manifest_oplusSensor_aidl \
-    manifest_oplus_fingerprint
+    manifest_oplus_fingerprint \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
+    com.android.hotwordenrollment.common.util \
