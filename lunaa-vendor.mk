@@ -681,6 +681,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_low_light_hdr_for_neon.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr_for_neon.so \
+    vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_turbo_fusion_raw_grf.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_turbo_fusion_raw_grf.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_pic_best.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_pic_best.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_portraitSN_hvx_stub.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portraitSN_hvx_stub.so \
     vendor/realme/lunaa/proprietary/odm/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portrait_super_night_raw.so \
